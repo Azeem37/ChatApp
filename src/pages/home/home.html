@@ -1,0 +1,9 @@
+<ion-content padding>
+  <ion-label class="title">well come to join us...</ion-label>
+  <img src="./assets/imgs/discussion-boards.png">
+  <ion-item class="up">
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+  </ion-item>
+  <button ion-button block outline (click)="user()">join team {{username}}</button>
+</ion-content>
